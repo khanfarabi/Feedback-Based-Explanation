@@ -27,7 +27,10 @@ The feedbacks are in the data folder.
   The Explanation Accuracy With Human Feedback: Here we have varied the clusters from, 10,15,20,25, and 30 and compute word explanation accuracy with the increase of the  clusters. The accuracy is computed considering both posotive and negative reviews, only considerating positive reviews, and only considering negative reviews. In this experiment 1000 reviews (500 positive, 500 negative) are used.
   
   
-  #Considering Both Positive and Negative Reviews
+  
+  
+  
+  # Considering Both Positive and Negative Reviews
      Number of Clusters    Explanation Accuracy
      10                    0.6358024691358024
      15                   0.6666666666666666
@@ -38,7 +41,7 @@ The feedbacks are in the data folder.
 
 
 
-    #Considering only Positive  Reviews
+   # Considering only Positive  Reviews
      Number of Clusters    Explanation Accuracy
      10                    0.6388888888888888
      15                    0.6166666666666666
@@ -49,7 +52,7 @@ The feedbacks are in the data folder.
       
       
       
-     #Considering only Negative  Reviews
+   # Considering only Negative  Reviews
      Number of Clusters    Explanation Accuracy
      10                    0.611111111111111
      15                    0.8333333333333334
