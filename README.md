@@ -13,10 +13,14 @@ In this project, we are explaining the predictions made by Machine Learning Mode
         
 # With Feedback per cluster SHAP Explanation Accuracy
 
-st=10 # Statring # of cluster
-lm=31 # Limits of # of cluster
-df=5 # difference between 2 cluster mechanism.
+
+st=10   
+lm=31   
+df=5    
+
 withfeedback(st,lm,df)
+
+
 Here the values of the st,lm, and df can be changes. st defines the initial number of clusters, lm defines the highest number of clusters we want to check, df defines the difference between two cluster models, for example if we have initial cluster size st=5, the next cluster model will have st=10, because df is 5 here.
 
 # Data
