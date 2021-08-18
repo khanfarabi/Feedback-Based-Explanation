@@ -6,19 +6,22 @@ In this project, we are explaining the predictions made by Machine Learning Mode
 # Run the Code to get the Non_Relational Shap Explanation Accuracy for the multiple feedback with voting mechanism with Review Data:
 1. In Non_Relational_SHAP_Accuracy_update_1 the following two commands need to run:
 
-a) # Without Feedback Shap Explanation Accuracy
+
+# Without Feedback Shap Explanation Accuracy
+
         without_feedback()
-b)# With Feedback per cluster SHAP Explanation Accuracy
+        
+# With Feedback per cluster SHAP Explanation Accuracy
+
 st=10 # Statring # of cluster
 lm=31 # Limits of # of cluster
 df=5 # difference between 2 cluster mechanism.
 withfeedback(st,lm,df)
-
 Here the values of the st,lm, and df can be changes. st defines the initial number of clusters, lm defines the highest number of clusters we want to check, df defines the difference between two cluster models, for example if we have initial cluster size st=5, the next cluster model will have st=10, because df is 5 here.
 
 # Data
 
-The feedbacks are in the data folder.
+The feedbacks are in the data folder. The Yelp Hotel Review Data available in the above mentioned link.
 
 
 # Demo output for the Non_Relational Shap Explanation Accuracy for the multiple feedback with voting mechanism with Review Data  update-1
